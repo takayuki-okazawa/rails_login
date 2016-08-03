@@ -80,13 +80,13 @@ Start Rails
 $ sudo rails s -b 0.0.0.0
 ```
 
-1. Access URL
+1. Access URL  
 http://192.168.33.10:3000/home/authentication
 
-2. Can't viwe URL -> Redirect
+2. Can't viwe URL -> Redirect  
 http://192.168.33.10:3000/users/sign_up
 
-3. Input Form and Sign up
+3. Input Form and Sign up  
 
-4. Re Access URL
+4. Re Access URL  
 http://192.168.33.10:3000/home/authentication

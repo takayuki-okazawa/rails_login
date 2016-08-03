@@ -80,7 +80,7 @@ Start Rails
 $ sudo rails s -b 0.0.0.0
 ```
 
-1. Access URL  
+1. Access URL(192.168.33.10 -> YOUR_HOST)  
 http://192.168.33.10:3000/home/authentication
 
 2. Can't viwe URL -> Redirect  

@@ -90,3 +90,5 @@ http://192.168.33.10:3000/users/sign_up
 
 4. Re Access URL  
 http://192.168.33.10:3000/home/authentication
+
+5. Can view URL!

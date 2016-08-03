@@ -18,6 +18,7 @@ MongoDB shell version: 3.2.1
 2. Install 'device' and Setting
 3. Create Model and Controller
 4. Edit Controller
+5. Let's Test!
 
 ## 1. Setting MongoDB of Rails
 
@@ -71,3 +72,21 @@ Edit Controller(app/controllers/home_controller.rb)
 ```
 before_action :authenticate_user!,only: :authentication
 ```
+
+## 5. Let's Test!
+
+Start Rails
+```
+$ sudo rails s -b 0.0.0.0
+```
+
+1. Access URL
+http://192.168.33.10:3000/home/authentication
+
+2. Can't viwe URL -> Redirect
+http://192.168.33.10:3000/users/sign_up
+
+3. Input Form and Sign up
+
+4. Re Access URL
+http://192.168.33.10:3000/home/authentication
